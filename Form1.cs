@@ -34,8 +34,10 @@ namespace Timer_kullanimi
             }
             if(sayac == 60)
             {
+                sayac = 0;
                 timer1.Stop();
                 pictureBox1.Visible = false;
+                MessageBox.Show("Geçiþ Saðlandý.");
             }
         }
     }
